@@ -18,7 +18,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -31,6 +30,15 @@ body {
 
 header {
     display: inline-flex;
+}
+
+footer {
+    background-color: var(--cyan);
+    width: 100%;
+}
+
+#dark img {
+    width: 100%;
 }
 
 #btn {
@@ -58,4 +66,8 @@ header {
 
 .box img {
     width: 500px;
+}
+
+.blue {
+    background-color: var(--blue);
 }
