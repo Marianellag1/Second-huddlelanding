@@ -26,15 +26,28 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
     display: inline-flex;
+    margin: 4rem 4rem 8rem 4rem;
 }
 
 footer {
     background-color: var(--cyan);
     width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: xxx-large;
 }
 
 #dark img {
@@ -47,16 +60,68 @@ footer {
     color: var(--light);
 }
 
+#mockups img {
+    width: 700px;
+    margin-bottom: 4rem;
+}
+
 .button {
-    border-radius: 10px;
+    font-weight: 600;
+    border-radius: 30px;
+    width: 25%;
     background-color: var(--pink);
     color: var(--blue);
     border: none;
+    padding: 1.25rem;
+    box-shadow: 0 3px 8px 5px rgb(0 0 0 / 20%);
+}
+
+.button:hover {
+    cursor: pointer;
+    font-size: larger;
+    height: 56px;
+}
+
+.button:active {
+    opacity: 0.5;
+}
+
+
+.one {
+    margin: 2rem 4rem 6rem 4rem;
+    text-align: center;
+}
+
+.one p {
+    padding: 1rem 20rem 3rem 20rem;
 }
 
 .two {
     display: grid;
     grid: auto/ auto auto;
+}
+
+.community h2,
+.message h2 {
+    font-size: 70px;
+}
+
+.community img,
+.message img {
+    width: 35px;
+}
+
+/* .community p,
+.message p {
+    
+} */
+
+.community {
+    padding-right: 6rem;
+}
+
+.message {
+    padding-left: 6rem;
 }
 
 .box {
