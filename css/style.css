@@ -74,6 +74,19 @@ h1 {
     width: -webkit-fill-available;
 }
 
+#img {
+    filter: invert();
+    padding-bottom: 1.5rem;
+}
+
+/* #subscribe:hover {
+    cursor: pointer;
+} */
+
+/* #subscribe:active {
+    background-color: var(--light);
+} */
+
 .button {
     font-weight: 600;
     border-radius: 30px;
@@ -172,4 +185,74 @@ h1 {
 
 .four button {
     width: 55%;
+}
+
+.bottom {
+    display: grid;
+    grid: auto/ auto auto auto;
+    padding: 4rem;
+}
+
+.contact,
+.newsletter {
+    color: var(--blue);
+    padding: 0 2rem 0 2rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.lorem {
+    padding: 0 9rem 0 0;
+}
+
+.phone,
+.email {
+    display: inline-flex;
+    padding: 1.5rem 0 .5rem 0;
+}
+
+.phone img,
+.email img {
+    padding-right: .625rem;
+}
+
+.phone a,
+.email a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.newsletter :nth-child(1) {
+    text-transform: uppercase;
+    padding: .625rem 0 .625rem 0;
+}
+
+.newsletter :nth-child(2) {
+    padding: 0 5rem 1rem 0;
+}
+
+.newsletter input {
+    padding: .625rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    width: 35%;
+}
+
+.newsletter button {
+    padding: 0.625rem;
+    width: 20%;
+    background-color: var(--pink);
+    color: var(--blue);
+    border-radius: 5px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
