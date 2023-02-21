@@ -79,13 +79,13 @@ h1 {
     padding-bottom: 1.5rem;
 }
 
-/* #subscribe:hover {
-    cursor: pointer;
-} */
+#receive {
+    padding: 2rem 0 2rem 0;
+}
 
-/* #subscribe:active {
-    background-color: var(--light);
-} */
+#upper {
+    text-transform: uppercase;
+}
 
 .button {
     font-weight: 600;
@@ -225,28 +225,37 @@ h1 {
     color: var(--blue);
 }
 
-.newsletter :nth-child(1) {
-    text-transform: uppercase;
-    padding: .625rem 0 .625rem 0;
-}
-
-.newsletter :nth-child(2) {
-    padding: 0 5rem 1rem 0;
-}
-
-.newsletter input {
-    padding: .625rem;
-    margin-right: 1rem;
-    border-radius: 5px;
-    width: 35%;
-}
-
 .newsletter button {
     padding: 0.625rem;
     width: 20%;
     background-color: var(--pink);
     color: var(--blue);
     border-radius: 5px;
+}
+
+.form :nth-child(1) {
+    padding: .625rem;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.form :nth-child(2) {
+    padding: .825rem;
+    width: 25%;
+    background-color: var(--pink);
+    color: var(--blue);
+    font-weight: 700;
+    margin-left: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.form :nth-child(2):hover {
+    cursor: pointer;
+}
+
+.form :nth-child(2):active {
+    background-color: var(--light);
 }
 
 .footer {
